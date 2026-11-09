@@ -541,7 +541,7 @@ contract BCTStaking is ReentrancyGuard, AccessControl {
     year: '2024 – 2025',
     role: 'Full-Stack & AI Engineer (Final Year Project)',
     status: 'COMPLETED (FYP)',
-    image: '/src/assets/images/semantiscope_mobile_app_1793552532853.jpg',
+    image: semantiscopeImg,
     visualType: 'nlp',
     githubClient: 'https://github.com/fatimahere7/fyp-client',
     githubServer: 'https://github.com/fatimahere7/fyp-server',
