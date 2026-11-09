@@ -1,4 +1,7 @@
 import type { ProjectItem } from '../types/project';
+import omegapayImg from '../assets/images/omegapay_mobile_app_1793552533329.jpg';
+import bctStakingImg from '../assets/images/bct_staking_platform_1793552301055.jpg';
+import semantiscopeImg from '../assets/images/semantiscope_mobile_app_1793552532853.jpg';
 
 export const PROJECTS: ProjectItem[] = [
   // ==========================================
@@ -16,7 +19,7 @@ export const PROJECTS: ProjectItem[] = [
     year: '2025 – 2026',
     role: 'Backend Developer (Sole Backend Ownership)',
     status: 'PRODUCTION READY',
-    image: '/src/assets/images/omegapay_mobile_app_1793552533329.jpg',
+    image: omegapayImg,
     visualType: 'fintech',
     caseStudyUrl: '#project-omegapay-fintech-backend',
     introduction:
@@ -249,7 +252,7 @@ export const PROJECTS: ProjectItem[] = [
     year: '2025',
     role: 'Smart Contract & Web3 Developer',
     status: 'TESTNET / MAINNET VERIFIED',
-    image: '/src/assets/images/bct_staking_platform_1793552301055.jpg',
+    image: bctStakingImg,
     visualType: 'staking',
     github: 'https://github.com/fatimahere7/Blackchain',
     caseStudyUrl: '#project-bct-staking-platform',
