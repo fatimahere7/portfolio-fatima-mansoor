@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@layer base {
+  body {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+  }
+
+  .font-editorial, .font-serif {
+    font-family: var(--font-editorial);
+  }
+
+  .font-technical {
+    font-family: var(--font-mono);
+    font-feature-settings: "tnum" 1, "zero" 1;
+  }
+}
+
+/* Reusable clip-path utilities for editorial reveals */
+.clip-reveal-hidden {
+  clip-path: inset(100% 0 0 0);
+}
+
+.clip-reveal-visible {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Editorial typography utilities */
+.editorial-title {
+  font-family: var(--font-sans);
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  text-wrap: balance;
+}
+
+.technical-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #888888;
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.text-stroke-crimson {
+  -webkit-text-stroke: 1.2px #D94B4B;
+  color: transparent;
+}
+
+.text-stroke-warm {
+  -webkit-text-stroke: 1.2px #E9E5D8;
+  color: transparent;
+}

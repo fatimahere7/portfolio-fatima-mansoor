@@ -1,0 +1,6 @@
+{
+  "name": "Simon Sparks Inspired Developer Portfolio",
+  "description": "Editorial, technical, and experimental developer portfolio foundation with dark visual system, thin grid geometry, and custom motion physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

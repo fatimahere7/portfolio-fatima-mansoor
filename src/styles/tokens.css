@@ -1,0 +1,72 @@
+:root {
+  /* Cinematic Editorial Palette */
+  --color-black: #080808;
+  --color-charcoal: #171717;
+  --color-white: #FFFFFF;
+  --color-warm-white: #E9E5D8;
+  --color-crimson: #D94B4B;
+  --color-muted-grey: #888888;
+
+  /* Strict Monochrome Color System */
+  --bg-primary: #080808;       /* Deep black foundation */
+  --bg-secondary: #171717;     /* Cinematic charcoal surface */
+  --bg-tertiary: #F5F5F5;      /* Soft off-white section background */
+  --bg-surface-light: #FFFFFF; /* Pure white card surface */
+  --bg-surface-dark: #171717;  /* Dark card surface */
+
+  /* Text System */
+  --text-dark: #FFFFFF;        /* Main text on dark backgrounds */
+  --text-light: #171717;       /* Main text on light backgrounds */
+  --text-secondary: #888888;   /* Secondary text, muted labels */
+  --text-white: #FFFFFF;
+  --text-warm: #E9E5D8;
+
+  /* Structural Lines & Borders */
+  --border-subtle: #888888;
+  --border-light-section: rgba(136, 136, 136, 0.22);
+  --border-dark-section: rgba(136, 136, 136, 0.25);
+
+  /* Accent Colors */
+  --accent-red: #D94B4B;          /* Primary cinematic crimson accent */
+  --accent-crimson: #D94B4B;
+  --accent-yellow: #D6B36A;       /* Secondary decorative warm yellow */
+
+  /* Typography Families */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-editorial: 'Playfair Display', Georgia, serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Motion Timing Tokens */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-micro: 180ms;
+  --duration-smooth: 280ms;
+}
+
+/* Custom Minimal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7B7B7B;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+/* Hide default cursor on desktop when custom cursor is enabled */
+@media (hover: hover) and (pointer: fine) {
+  .custom-cursor-active,
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+}
